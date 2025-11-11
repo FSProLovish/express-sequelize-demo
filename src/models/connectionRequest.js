@@ -14,7 +14,7 @@ const ConnectionRequest = sequelize.define(
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: "User",
+        model: "user",
         key: "id",
       },
       onDelete: "CASCADE",
@@ -24,7 +24,7 @@ const ConnectionRequest = sequelize.define(
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: "User",
+        model: "user",
         key: "id",
       },
       onDelete: "CASCADE",
